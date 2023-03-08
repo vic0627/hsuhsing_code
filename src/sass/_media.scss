@@ -1,0 +1,5 @@
+@mixin l() {
+    @media all and (min-width: 550px){
+        @content;
+    }
+}

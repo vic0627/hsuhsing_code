@@ -1,0 +1,54 @@
+@import "./media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Poppins:wght@400;500&display=swap");
+@font-face {
+  font-family: "noto";
+  src: "/fonts/NotoSansTC-Regular.otf";
+}
+%en-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+  @include l() {
+    font-size: 56px;
+  }
+}
+%en-p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+%cn-title {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  @include l() {
+    font-size: 24px;
+  }
+}
+%cn-p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
